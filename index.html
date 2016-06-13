@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Wikipedia Viewer</title>
+	<link rel="stylesheet" href="style/normalize.css">
+	<link rel="stylesheet" href="style/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+	<h1 class="title">Wikipedia search</h1>
+
+	<form class="container">
+		<label class="label-input" for="field-search"><img src="http://res.cloudinary.com/exandar/image/upload/v1465583811/For%20Web%20Projects/Wikipedia%20Viewer/searching-tool-outline.png" alt="Search" width="30" onerror="this.style.display='none'" /></label>
+		<input type="text" class="field-search" id="field-search" placeholder="Enter you request..." />
+		<div class="link link-search">Find</div>
+		<a href="https://en.wikipedia.org/wiki/Special:Random" class="link link-random" target="_blank">Random</a>
+	</form>
+
+	<p class="search-result"></p>
+
+	<ul class="result-list"></ul>
+</body>
+</html>
